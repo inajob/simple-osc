@@ -70,12 +70,12 @@ void OSC_CYCLE(const user_osc_param_t * const params,
 
 void OSC_NOTEON(const user_osc_param_t * const params)
 {
-  // cycle
+  // note on
 }
 
 void OSC_NOTEOFF(const user_osc_param_t * const params)
 {
-  // cycle
+  // note off
 }
 
 void OSC_PARAM(uint16_t index, uint16_t value)
