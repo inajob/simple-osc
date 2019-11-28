@@ -1,12 +1,25 @@
 # simple-osc
 
 This is practice of [logue-sdk](https://github.com/korginc/logue-sdk).
-This OSC simply play 440Hz + Param1 sound.
+
+**simple**
+This OSC simply play 440Hz + Param1 tone.
+
+**basic**
+This OSC simply play tone.
+
 
 ---
 
-[logue-sdk](https://github.com/korginc/logue-sdk)を使った 440Hz + Param1 の音を鳴らすだけのOSCです。
+[logue-sdk](https://github.com/korginc/logue-sdk)を使ったサンプルです。
+
+**simple**
+440Hz + Param1 の音を鳴らすだけのOSCです。
 どの鍵盤を押してもこの音しかなりません。実用的なものではなくライブラリのテストです。
+
+**basic**
+鍵盤の音を鳴らすだけのOSCです。
+波形はwavesB[params1]を使います。
 
 ## How to build?
 
